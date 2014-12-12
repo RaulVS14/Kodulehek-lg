@@ -1,0 +1,61 @@
+/*muudame html elemendi parameetreid: taustavärv, teksti värv, fonti tüüp*/
+html{
+    background-color:#53D953;
+    font-family:Calibri;
+    color:#039403;
+}
+.sisux{
+    text-align: center;
+}
+#header{
+    margin:0px;
+    padding:0px;
+    width:100%;
+    background-color:##7FE77F;
+    text-align: center;
+}
+/*kaotame unordered listi täpid*/
+#nav ul {
+    padding:0;
+    margin:0;
+    list-style-type: none;
+    overflow:hidden;
+}
+#nav li{
+    padding-top:5px;
+    padding-bottom:5px;
+    float:left;
+    background-color:#FFC08C;
+    margin:1px;
+    width:33%;
+}
+
+#nav a{
+    margin:0px;
+    text-decoration: none;
+    font-size:20px;
+}
+#nav a:hover, a:active{
+    color:#B95604;
+}
+#nav a:link,a:visited{
+    display:block;
+    width:33;
+    font-weight:bold;
+    text-align:center;
+    color:#B95604;
+}
+li#active{
+    background-color:#F5760C;
+}
+table{
+    text-align: center;
+    border:2px solid red;
+
+}
+td{
+    border:2px solid blue
+}
+img{
+    width:250px
+}
