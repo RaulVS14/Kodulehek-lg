@@ -4,23 +4,26 @@ html{
     font-family:Calibri;
     color:#039403;
 }
+/*esilehe body elemendi joondus*/
 .sisux{
     text-align: center;
 }
+/*veebilehtede pealkirja seaded*/
 #header{
     margin:0px;
     padding:0px;
     width:100%;
-    background-color:##7FE77F;
+    background-color:#7FE77F;
     text-align: center;
 }
-/*kaotame unordered listi täpid*/
+/*kaotame unordered list navigatsiooniks kujundamine*/
 #nav ul {
     padding:0;
     margin:0;
     list-style-type: none;
     overflow:hidden;
 }
+/*li elemendi kujundus*/
 #nav li{
     padding-top:5px;
     padding-bottom:5px;
@@ -29,33 +32,103 @@ html{
     margin:1px;
     width:33%;
 }
-
+/*navigatsiooni a elemendi kujundus*/
 #nav a{
     margin:0px;
     text-decoration: none;
     font-size:20px;
+	color:#B95604;
 }
+/*a kujunduse muutmine, kui hiirega peale liigutakse ja käivitakse*/
 #nav a:hover, a:active{
-    color:#B95604;
+    color:#FFC08C;
+	background-color:#FFA962;
 }
+/*a lingi ja külastatuse oleku kujundus*/
 #nav a:link,a:visited{
     display:block;
     width:33;
     font-weight:bold;
     text-align:center;
-    color:#B95604;
+    color:#FFC08C;
 }
+/*aktiivse html koodi list elemendi kujundus*/
 li#active{
     background-color:#F5760C;
 }
+/* tabeli kujundus*/
 table{
     text-align: center;
-    border:2px solid red;
-
+	padding:10px;
 }
+/* tabeli veeru kujundus*/
 td{
-    border:2px solid blue
+	padding:0px;
+	background-color:black;
+	text-align:left;
 }
+/* pildi kujunduse muutmine*/
 img{
-    width:250px
+    width:300px
+}
+/* tabeli pealkirja kujundus*/
+th{
+	background-color:#C50973;
+	color:#E77FBA;
+	font-size:20px;
+}
+#tagasi a{
+	background-color:#C50973;
+	margin:0px;
+    text-decoration: none;
+    font-size:20px;
+	color:#E77FBA;
+}
+/*tabeli reas oleva a kujunduse muutmine, kui hiirega peale liigutakse ja käivitakse*/
+#tagasi a:hover,a:active{
+    color:#E77FBA;
+	background-color:#D9539F;
+}
+/*tabeli reas oleva a lingi ja külastatuse oleku kujundus*/
+#tagasi a:link,a:visited{
+    display:block;
+    width:33;
+    font-weight:bold;
+    text-align:center;
+	color:#E77FBA;
+}
+
+#navx ul {
+    padding:0;
+    margin:0;
+    list-style-type: none;
+    overflow:hidden;
+}
+/*li elemendi kujundus*/
+#navx li{
+    padding-top:5px;
+    padding-bottom:5px;
+    float:left;
+    background-color:yellow;
+    margin:1px;
+    width:33%;
+}
+/*navigatsiooni a elemendi kujundus*/
+#navx a{
+    margin:0px;
+    text-decoration: none;
+    font-size:20px;
+	color:#B95604;
+}
+/*a kujunduse muutmine, kui hiirega peale liigutakse ja käivitakse*/
+#navx a:hover, a:active{
+    color:#FFC08C;
+}
+/*a lingi ja külastatuse oleku kujundus*/
+#navx a:link,a:visited{
+    display:block;
+    width:33;
+    font-weight:bold;
+    text-align:center;
+    color:#FFC08C;
 }
